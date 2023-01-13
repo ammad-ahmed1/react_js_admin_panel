@@ -1,0 +1,38 @@
+
+/* .products{
+    height: 30rem !important;
+    /* display: flex !important; */
+    /* margin: 20px; */
+    /* float: left; */
+/*} 
+/* .prod-card{
+    margin: 30px !important;
+} */
+.prod-info{
+    justify-content: center;
+}
+/* .prod-title, .prod-gender, .prod-price, .del-btn, .update-btn{
+    margin-left: 40%;
+} */
+.del-btn-class, .update-btn-class{
+    margin-top: 5px !important;
+    width: 70% !important;
+
+}
+.del-btn, .update-btn{
+    color: white !important;
+    background-color: black !important;
+    width: 100%;
+}
+.add-btn{
+    color: white !important;
+    margin-top: 10px !important;
+    background-color: black !important;
+}
+.show-product{
+    margin: 50px !important;
+}
+/*--------------------------------*/
+/* .card-img-top{
+    height: 25rem;
+} */

@@ -1,0 +1,49 @@
+
+.form{
+   width: 100vw;
+   height: 100;
+}
+.form-body{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    background-color: #5F0A87;
+    margin-top: 5rem;
+    height: 20rem;
+}
+h1{
+    color: white;
+    margin-top: 20px !important;
+    
+}
+input{
+    color: white;
+    position: relative;
+    margin-top: 10px !important;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: 0;
+    width: 40%;
+    background-color: transparent;
+    margin-bottom: 5px;
+}
+::placeholder{
+    position: absolute;
+    top: 10px;
+    font-size: 14px;
+    color: white;
+    transition: 0.3s;
+    pointer-events: none;
+}
+input:focus +placeholder{
+    top: -8px;
+}
+.option{
+    border: none;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 25%;
+}

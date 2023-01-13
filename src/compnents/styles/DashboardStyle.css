@@ -1,0 +1,26 @@
+/* 
+.sidebar{
+    background-color: #5F0A87;
+    
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    top: 0;
+    left: 0;
+    width: 34%;
+    list-style: none;
+    height: 100vh;
+    border-bottom: solid rgba(255, 255, 255, 0.1) 1px;
+    transform: translateX(-100%);
+    transition: all 0.4s;
+}
+.sidebar--open{
+    transform: translateX(00%);
+}
+.sidebarBtn{
+    background-color: #5F0A87;
+    border: none;
+    color: white;
+    cursor: 'pointer';
+ } */
